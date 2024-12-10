@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <main className='hero container'>
+    <main className="hero">
       <div className="hero-content">
         <h1>
             YOUR FEET <br />
@@ -14,7 +14,7 @@ const HeroSection = () => {
         </p>
         <div className="hero-btn">
             <button>Shop Now</button>
-            <button>Category</button>
+            <button className='category-btn'>Category</button>
         </div>
         <div className="shopping">
             Also Available On
@@ -31,4 +31,4 @@ const HeroSection = () => {
   )
 }
 
-export default HeroSection
+export default HeroSection;
